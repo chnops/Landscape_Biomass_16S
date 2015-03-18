@@ -2,7 +2,7 @@
 
 dataset<-read.csv("~/Desktop/hargreaves collab/Archive/LBrhizo_nosingletons.csv",header=T,check.names=F)
 dim(dataset)
-# rarefy to 6678 later
+
 meta<-read.csv("~/Desktop/hargreaves collab/Archive/LB&Rhizo_16S_Metadata.csv",header=T)
 names(dataset)[2]<-"Sample.ID"
 
